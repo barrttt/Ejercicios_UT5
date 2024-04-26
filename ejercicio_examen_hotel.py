@@ -1,3 +1,4 @@
+# comentario de prueba
 class Hotel:
     
     def __init__(self, habitacion_sencilla = 10, habitacion_doble = 20, habitacion_suite = 5, reservas = None):
