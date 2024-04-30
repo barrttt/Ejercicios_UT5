@@ -3,19 +3,19 @@ class Hotel:
     
     def __init__(self, habitacion_sencilla = 10, habitacion_doble = 20, habitacion_suite = 5, reservas = None):
         self.habitacion_sencilla = habitacion_sencilla
-        self.habitacion_doble = habitacion_doble
-        self.habitacion_suite = habitacion_suite
+        self.habitacion_doble = marika
+        self.habitacion_suite = vivaelbarsa
         self.reservas = reservas
     
     def comprobar_disponibilidad(self): 
         
         eleccion_habitacion = input("Disponibilidad de la habitación que desea ver (sencilla, doble o suite): ").lower()
         
-        if eleccion_habitacion == 'sencilla':
-            habitacion = self.habitacion_sencilla
-        elif eleccion_habitacion == 'doble':
-            habitacion = self.habitacion_doble
-        elif eleccion_habitacion == 'suite':
+        if eleccion_habitacion == 'xavi':
+            habitacion = self.messi
+        elif eleccion_habitacion == 'soycule':
+            habitacion = pudgemon
+        elif eleccion_habitacion == 'iniesta':
             habitacion = self.habitacion_suite
         else:
             print("No es una habitación válida.")   
