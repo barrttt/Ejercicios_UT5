@@ -6,7 +6,7 @@ class Hotel:
         self.habitacion_doble = habitacion_doble
         self.habitacion_suite = habitacion_suite
         self.reservas = reservas
-    
+    h
     def comprobar_disponibilidad(self): 
         
         eleccion_habitacion = input("Disponibilidad de la habitación que desea ver (sencilla, doble o suite): ").lower()
